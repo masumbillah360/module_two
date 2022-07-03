@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css learning</title>
+</head>
+
+<style>
+    h1{
+        text-align: center;
+    }
+    .blog{
+        background-color: #c5c5c5;
+        border: 5px solid yellow;
+        margin: 0 auto 5%;
+        padding: 10px 20px;
+        width: 50%;
+        box-sizing: border-box;
+        
+    }
+    .blog h3{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .thumbnail {
+        height: 300px;
+        width: 500px;
+        margin: 0 auto;
+        
+    } 
+    
+    .thumbnail img{
+        border:4px solid white;
+        border-radius: 20px 0px 20px 0px;
+        height: 95%;
+        width: 95%;
+        padding: 2px;
+    }
+    .author .profile_pic img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        align-items: center;
+    }
+
+    .author , .author_name{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .author .author_name p{
+        align-items: center;
+        border: 1px solid black;
+        align-items: center;
+    }
+    .date{
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+    }
+
+    .blog p{
+        text-align: justify;
+    }
+    @media screen and (max-width:1200px) {
+        .blog{
+            width: 70%;
+        }
+    }
+    @media screen and (max-width:800px) {
+        .blog{
+            width: 80%;
+        }
+        .thumbnail , .thumbnail img{
+        height: 300px;
+        width: 400px;
+        margin: 0 auto;
+
+    }
+    }
+    @media screen and (max-width:600px) {
+        .blog{
+            width: 90%;
+            /* background-color: cadetblue; */
+        }
+        .thumbnail , .thumbnail img{
+        height: 250px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    }
+
+
+</style>
+<body>
+    
+    <h1>Welcome To Masum Billah's Diry
+    </h1>
+
+    <div class="blog">
+        <h3>Title: Tour to Outer World in Space with my hunny</h3>
+
+        <div class="author">
+            <div class="profile_pic">
+                <img src="./images/darkmoon.jpg" alt="" srcset="">
+            </div>
+            <div class="author_name">
+                <p><small>Post by: Masum Billah</small></p>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <img src="./images/darkworld.jpg" alt="sajek tour photo">
+        </div>
+        <div class="date">
+            <p><small>Date: 11/11/11</small></p>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, autem modi quo animi, iusto a vero, ea minima esse facilis molestiae ratione error voluptates? Fugit, error ex quibusdam quaerat consequatur suscipit impedit illo veritatis possimus eveniet alias nulla reprehenderit doloribus molestiae blanditiis iure tempora. Possimus ut accusantium sit, error, facilis fugiat quae architecto dignissimos porro incidunt obcaecati, earum hic deserunt officiis? Autem sed ea fugit, necessitatibus quas, doloremque dolore atque veniam, consequatur nobis unde quidem nesciunt earum perspiciatis ipsa quasi tempora eius iure nisi accusantium! Ipsam, repellendus, commodi dolore perspiciatis modi soluta, adipisci aut eaque corporis quis corrupti iusto sunt.</p>
+    </div>
+
+
+
+    <div class="blog">
+        <h3>Title: Love is Always beautifull. Love Life is best life.</h3>
+
+        <div class="author">
+            <div class="profile_pic">
+                <img src="./images/darkmoon.jpg" alt="" srcset="">
+            </div>
+            <div class="author_name">
+                <p><small>Post by: Masum Billah</small></p>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <img src="./images/love_book.jpg" alt="sajek tour photo">
+        </div>
+        <div class="date">
+            <p><small>Date: 11/11/11</small></p>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, autem modi quo animi, iusto a vero, ea minima esse facilis molestiae ratione error voluptates? Fugit, error ex quibusdam quaerat consequatur suscipit impedit illo veritatis possimus eveniet alias nulla reprehenderit doloribus molestiae blanditiis iure tempora. Possimus ut accusantium sit, error, facilis fugiat quae architecto dignissimos porro incidunt obcaecati, earum hic deserunt officiis? Autem sed ea fugit, necessitatibus quas, doloremque dolore atque veniam, consequatur nobis unde quidem nesciunt earum perspiciatis ipsa quasi tempora eius iure nisi accusantium! Ipsam, repellendus, commodi dolore perspiciatis modi soluta, adipisci aut eaque corporis quis corrupti iusto sunt.</p>
+    </div>
+
+
+    <div class="blog">
+        <h3>Title: Tour to Dark Moon with my sweety</h3>
+
+        <div class="author">
+            <div class="profile_pic">
+                <img src="./images/darkmoon.jpg" alt="" srcset="">
+            </div>
+            <div class="author_name">
+                <p><small>Post by: Masum Billah</small></p>
+            </div>
+        </div>
+
+        <div class="thumbnail">
+            <img src="./images/darkmoon.jpg" alt="sajek tour photo">
+        </div>
+        <div class="date">
+            <p><small>Date: 11/11/11</small></p>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, autem modi quo animi, iusto a vero, ea minima esse facilis molestiae ratione error voluptates? Fugit, error ex quibusdam quaerat consequatur suscipit impedit illo veritatis possimus eveniet alias nulla reprehenderit doloribus molestiae blanditiis iure tempora. Possimus ut accusantium sit, error, facilis fugiat quae architecto dignissimos porro incidunt obcaecati, earum hic deserunt officiis? Autem sed ea fugit, necessitatibus quas, doloremque dolore atque veniam, consequatur nobis unde quidem nesciunt earum perspiciatis ipsa quasi tempora eius iure nisi accusantium! Ipsam, repellendus, commodi dolore perspiciatis modi soluta, adipisci aut eaque corporis quis corrupti iusto sunt.</p>
+    </div>
+
+
+</body>
+</html>
